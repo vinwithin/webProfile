@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.content{
+    
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+    
+}
+.text h1{
+    color: white;
+}
+.text p{
+    color: white;
+}
+#background-video {
+    width: 100vw;
+    height: 460px;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(0.5px);
+  }
+.profile{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.profile img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.text{
+    margin-top: 10px;
+   text-align: center;
+}
+.content-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.kiri{
+    background-color: #0b9b8a;
+    width: 50%;
+    height: 50vh;
+    border-right: solid 20px black;
+
+}
+.kiri h2{
+    color: #f8f0f3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.kiri p{
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+
+}
+.kanan{
+    background-color: #fadeeb;   
+    width: 50%;
+    height: 50vh;
+}
+.kanan h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;   
+}
+.tech{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+   
+.fa-brands{
+    padding-left: 30px;
+    
+}
